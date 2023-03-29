@@ -1,4 +1,4 @@
-/* .hidden {
+.hidden {
 	display: none;
 }
 
@@ -46,12 +46,40 @@ span{
     font-size: 1.8rem;
     font-weight: 700;
     box-sizing: border-box;
-    box-shadow: inset black;
+    /* box-shadow: inset black; */
     color: grey;
     text-decoration: none;
 }
 
 .Switch-Portfolio{
+	color: #000;
+}
+
+header {
+    background-color: rgb(5, 77, 3);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+.om{
+    font-size: 76px;
+    color: #fff;
+    padding-left: 100px;
+}
+
+#menu-con{
+    font-size: 32px;
+    box-sizing: border-box;
+    color:#fff;
+    text-decoration: none;
+}
+
+.change-profile{
     box-sizing: content-box;
 }
 
@@ -59,6 +87,9 @@ span{
     width: 650px;
     height: 500px;
     margin-top: 2px;
+    width: 350px;
+    height: 400px;
+    margin-top: 150px;
 }
 
 a {
@@ -79,11 +110,27 @@ a {
 }
 
 .butt:hover{
+    color:#fff;
+}
+
+.button_1{
+	border: 1px;
+	background-color:#fff;
+	height: 75px;
+	width: 250px;
+	cursor: pointer;
+	color: rgb(5, 77, 3);
+    margin-top: -295px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+
+.button_1:hover{
 	background-color: rgb(229, 229, 229);
 	color:black;
 }
-
-
 
 .butt-1{
 	border: 1px;
@@ -127,6 +174,44 @@ a {
     background-color: blueviolet;
 }
 
+.button_1 a{
+    color: rgb(5, 77, 3);
+  }
+
+.button_1 a:hover{
+    color: rgb(5, 77, 3);
+  }
+.hidden {
+	display: none;
+}
+
+#button {
+    margin-top: -10px;
+    margin-left: 600px;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease black;
+    font-size: 23px;
+    border: none;
+    border-radius: 1px;
+    box-sizing: border-box;
+    box-shadow: 0px 0 20px 20px white;  
+}
+#button:hover{
+    color: black;
+}
+
+.change-profile{
+    background-color: #fff;
+    color: rgb(5, 77, 3);   
+}
+
+#change-profile:hover {
+    border-radius: 5px;
+    background-color: rgb(5, 77, 3); 
+    color: #fff; 
+}
+
 a {
     text-decoration: none;
     transition: all .5s ease-in-out;
@@ -149,39 +234,17 @@ a {
 	height: 650px;
 }
 
-/* ekam */
-/* .lightbox1 {
-    width: 100vw;
-    height: 200vh;
-    position: absolute;
-    padding-left: 100px;
-    background-color: lightyellow;
-    background-image: url('../images/ekam-1.jpg');
-    background-repeat: no-repeat;
-    background-size: 55vh;
-    background-position: 40px center;
-    display: none;
-    z-index: 5000;
+
+
+.lightbox article {
+    width: 45%;
+    margin-left: 40%;
 }
 
-.lightbox_close1{
-    margin-left: 100px;
-    font-size: 120px;
-    color: black;
-    margin-top: 30px;
-}
-
-.lightbox_close1:hover { opacity: 0.5; color: olive; }
-
-.lightbox1 article {
-    width: 50%;
-    margin-left: 50%;
-}
-
-.lb_heading { 
-    text-align: center;
-    color: black;
-    font-size: 40px;
+.lb_heading {
+    text-align: left;
+    color: white;
+    padding-top: 130px;
 }
 
 .lb_text {
@@ -192,4 +255,72 @@ a {
     font-size: 30px;
 }
 
-.lightbox1:target { display: block; } */ */
+.lightbox1:target { display: block;  
+    padding-top: 2em;
+    color: white;
+    padding-top: 150px;
+}
+
+
+.lightbox:target { display: block; }
+
+
+/* e */
+
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/om_2.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 55vh;
+    background-position: 40px center;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+
+.lightbox_close{
+    margin-left: 1300px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: -200px;
+}
+
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
+
+.lightbox article {
+    width: 45%;
+    margin-left: 40%;
+}
+
+.lb_heading {
+    text-align: left;
+    color: white;
+    padding-top: 130px;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 4em;
+    color: red;
+    font-size: 30px;
+}
+
+.lightbox1:target { display: block; 
+    padding-top: 2em;
+    color: white;
+    padding-top: 150px;
+}
+
+.lightbox:target { display: block; }
