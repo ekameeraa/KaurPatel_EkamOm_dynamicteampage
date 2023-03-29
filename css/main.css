@@ -7,6 +7,10 @@
 	width: 1920px;
 }
 
+body {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .grid-con {
 	display: grid;
 	grid-template-columns: repeat(12, 70px);
@@ -28,7 +32,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: lightseagreen;
     padding: 15px 6%;
 }
 
@@ -37,6 +40,12 @@ header{
     font-weight: 700;
     color: white;
 }
+/* 
+.EKAMPREETKAUR{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+} */
 
 span{
     color: red;
@@ -46,7 +55,7 @@ span{
     font-size: 1.8rem;
     font-weight: 700;
     box-sizing: border-box;
-    /* box-shadow: inset black; */
+    box-shadow: inset black;
     color: grey;
     text-decoration: none;
 }
@@ -81,15 +90,20 @@ header {
 
 .change-profile{
     box-sizing: content-box;
+    margin-bottom: 80px;
 }
 
 #hero-image {
-    width: 650px;
-    height: 500px;
     margin-top: 2px;
     width: 350px;
     height: 400px;
-    margin-top: 150px;
+}
+
+#hero-image1 {
+    width: 690px;
+    height: 700px;
+    margin-top: 200px;
+    margin-left: 350px;
 }
 
 a {
@@ -124,7 +138,6 @@ a {
     font-size: 18px;
     text-decoration: none;
     border-radius: 25px;
-    
 }
 
 .button_1:hover{
@@ -170,7 +183,7 @@ a {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#Switch-Portfolio {
+#Switch-Portfolio:hover{
     background-color: blueviolet;
 }
 
@@ -181,9 +194,6 @@ a {
 .button_1 a:hover{
     color: rgb(5, 77, 3);
   }
-.hidden {
-	display: none;
-}
 
 #button {
     margin-top: -10px;
@@ -197,19 +207,31 @@ a {
     box-sizing: border-box;
     box-shadow: 0px 0 20px 20px white;  
 }
+
 #button:hover{
     color: black;
 }
 
 .change-profile{
     background-color: #fff;
-    color: rgb(5, 77, 3);   
+    color: rgb(5, 77, 3); 
 }
 
 #change-profile:hover {
     border-radius: 5px;
     background-color: rgb(5, 77, 3); 
     color: #fff; 
+}
+
+.change-profile1{
+    background-color: #fff;
+    color: darkslategray; 
+}
+
+#change-profile1:hover {
+    border-radius: 5px;
+    background-color: yellow; 
+    color: red; 
 }
 
 a {
@@ -230,11 +252,11 @@ a {
 }
 
 #hero-image {
-	grid-column: 1/9;
+	grid-column: 5/9;
 	height: 650px;
+    margin-bottom: 800px;
+    margin-top: 100px;
 }
-
-
 
 .lightbox article {
     width: 45%;
@@ -265,7 +287,7 @@ a {
 .lightbox:target { display: block; }
 
 
-/* e */
+/*l*/
 
 .lightbox {
     width: 100vw;
@@ -287,9 +309,23 @@ a {
     display: none;
 }
 
+.lightbox1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/ekam-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px center;
+    display: none;
+    z-index: 5000;
+}
 
-.lightbox_close{
-    margin-left: 1300px;
+.lightbox_close {
+    margin-left: 1200px;
     font-size: 40px;
     color: white;
     margin-bottom: -200px;
@@ -297,6 +333,16 @@ a {
 
 
 .lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
+
+.lightbox_close1 {
+    margin-left: 130px;
+    font-size: 70px;
+    color: white;
+    margin-bottom: -500px;
+}
+
+
+.lightbox_close1:hover { opacity: 0.5; color: orange; }
 
 .lightbox article {
     width: 45%;
@@ -317,9 +363,25 @@ a {
     font-size: 30px;
 }
 
+.lb_heading1 {
+    text-align: center;
+    color: wheat;
+    padding-top: 50px;
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+.lb_text1 {
+    line-height: 1.6 !important;
+   margin-left: 1300px;
+    padding-top: 4em;
+    color: red;
+    font-size: 35px;
+}
+
 .lightbox1:target { display: block; 
     padding-top: 2em;
-    color: white;
+    color: blueviolet;
     padding-top: 150px;
 }
 
