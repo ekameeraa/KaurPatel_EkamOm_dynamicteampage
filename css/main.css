@@ -116,20 +116,18 @@ h1 {
 
 #hero-image {
     margin-top: 200px;
-    margin-left: 350px;
+    margin-left: 300px;
     width: 400px;
-    height: 650px;
+    height: 550px;
 }
 
 #hero-image1 {
-    width: 690px;
-    height: 700px;
     margin-top: 200px;
     margin-left: 350px;
     margin-bottom: 50px;
     margin-left: 550px;
-    width: 350px;
-    height: 400px;
+    width: 690px;
+    height: 700px;
     margin-top: 150px; 
 }
 
