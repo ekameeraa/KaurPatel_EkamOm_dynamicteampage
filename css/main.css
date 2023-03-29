@@ -126,6 +126,11 @@ h1 {
     height: 700px;
     margin-top: 200px;
     margin-left: 350px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    width: 350px;
+    height: 400px;
+    margin-top: 150px; 
 }
 
 a {
@@ -247,6 +252,74 @@ a {
     color: Red;
     text-align: center;
 }
+
+#hero-image {
+	padding-left: 360px;
+	height: 500px;
+    border-radius: 25px;
+}
+
+.lightbox article {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+
+.lb_heading {
+    text-align: left;
+    color: white;
+    padding-top: 130px;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 4em;
+    color: red;
+    font-size: 30px;
+}
+
+.lightbox1:target { display: block;  
+    padding-top: 2em;
+    color: white;
+    padding-top: 150px;
+}
+
+
+.lightbox:target { display: block; }
+
+
+/*l*/
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/om_2.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 55vh;
+    background-position: 40px center;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+
+.lightbox_close{
+    margin-left: 1300px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: -200px;
+}
+
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
 
 .lightbox article {
     width: 45%;
