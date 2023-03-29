@@ -44,10 +44,11 @@ header {
 }
 
 #hero-image {
+    margin-bottom: 50px;
+    margin-left: 550px;
     width: 350px;
     height: 400px;
-    margin-top: 150px;
-    
+    margin-top: 150px; 
 }
 
 a {
@@ -119,9 +120,9 @@ a {
 }
 
 
-#hero {
+/* #hero {
 	
-}
+} */
 
 #hero-text {
 	height: 100px;
@@ -135,7 +136,37 @@ a {
     border-radius: 25px;
 }
 
+.lightbox article {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 80px;
+}
 
+.lb_heading {
+    text-align: left;
+    color: white;
+    padding-top: 130px;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 4em;
+    color: red;
+    font-size: 30px;
+}
+
+.lightbox1:target { display: block;  
+    padding-top: 2em;
+    color: white;
+    padding-top: 150px;
+}
+
+
+.lightbox:target { display: block; }
+
+
+/*l*/
 .lightbox {
     width: 100vw;
     height: 100vh;
