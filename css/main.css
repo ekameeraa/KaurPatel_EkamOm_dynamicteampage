@@ -40,12 +40,6 @@ header{
     font-weight: 700;
     color: white;
 }
-/* 
-.EKAMPREETKAUR{
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-} */
 
 span{
     color: red;
@@ -60,9 +54,36 @@ span{
     text-decoration: none;
 }
 
-.Switch-Portfolio{
+.Switch-Profile{
 	color: #000;
+    box-sizing: content-box;
 }
+
+.Switch-Profile{
+    background-color: blue;
+    color: bisque;
+    font-size: 25px;
+    display: flex;
+	margin-top: 15px;
+    border-radius: 3px;
+}
+
+#Switch-Profile {
+    border-radius: 3px;
+	background-color: gold;
+	height: 70px;
+	width: 180px;
+	cursor: pointer;
+	color: black;
+    margin-right: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Switch-Profile:hover{
+    background-color: blueviolet;
+}
+
 
 header {
     background-color: rgb(5, 77, 3);
@@ -70,7 +91,7 @@ header {
     padding: 20px;
   }
   
-  h1 {
+h1 {
     margin: 0;
     text-align: center;
   }
@@ -94,9 +115,10 @@ header {
 }
 
 #hero-image {
-    margin-top: 2px;
-    width: 350px;
-    height: 400px;
+    margin-top: 200px;
+    margin-left: 350px;
+    width: 400px;
+    height: 650px;
 }
 
 #hero-image1 {
@@ -133,7 +155,7 @@ a {
 	height: 75px;
 	width: 250px;
 	cursor: pointer;
-	color: rgb(5, 77, 3);
+	color: indianred;
     margin-top: -295px;
     font-size: 18px;
     text-decoration: none;
@@ -162,31 +184,6 @@ a {
 	color: red;
 }
 
-.Switch-Portfolio {
-    background-color: blue;
-    color: bisque;
-    font-size: 25px;
-    display: flex;
-	margin-top: 15px;
-    border-radius: 3px;
-}
-
-#Switch-Portfolio {
-    border-radius: 3px;
-	background-color: gold;
-	height: 70px;
-	width: 180px;
-	cursor: pointer;
-	color: black;
-    margin-right: 20px;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#Switch-Portfolio:hover{
-    background-color: blueviolet;
-}
-
 .button_1 a{
     color: rgb(5, 77, 3);
   }
@@ -196,13 +193,13 @@ a {
   }
 
 #button {
-    margin-top: -10px;
+    margin-bottom: 100px;
     margin-left: 600px;
     background-color: black;
     color: white;
     transition: 0.3s ease black;
     font-size: 23px;
-    border: none;
+    border: 2px;
     border-radius: 1px;
     box-sizing: border-box;
     box-shadow: 0px 0 20px 20px white;  
@@ -251,13 +248,6 @@ a {
     text-align: center;
 }
 
-#hero-image {
-	grid-column: 5/9;
-	height: 650px;
-    margin-bottom: 800px;
-    margin-top: 100px;
-}
-
 .lightbox article {
     width: 45%;
     margin-left: 40%;
@@ -283,30 +273,23 @@ a {
     padding-top: 150px;
 }
 
-
 .lightbox:target { display: block; }
-
 
 /*l*/
 
 .lightbox {
     width: 100vw;
     height: 100vh;
-
     position: absolute;
     top: 0;
     left: 0;
-
     background-color: rgba(30, 30, 30, 30.85);
     background-image: url('../images/om_2.jpg');
     background-repeat: no-repeat;
-
     background-size: 55vh;
     background-position: 40px center;
-
-    z-index: 5000;
-
     display: none;
+    z-index: 5000;
 }
 
 .lightbox1 {
@@ -325,14 +308,13 @@ a {
 }
 
 .lightbox_close {
-    margin-left: 1200px;
-    font-size: 40px;
+    margin-left: 130px;
+    font-size: 70px;
     color: white;
-    margin-bottom: -200px;
+    margin-bottom: -500px;
 }
 
-
-.lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
+.lightbox_close:hover { opacity: 0.5; color: rgb(238, 255, 0); }
 
 .lightbox_close1 {
     margin-left: 130px;
@@ -340,7 +322,6 @@ a {
     color: white;
     margin-bottom: -500px;
 }
-
 
 .lightbox_close1:hover { opacity: 0.5; color: orange; }
 
@@ -353,6 +334,7 @@ a {
     text-align: left;
     color: white;
     padding-top: 130px;
+    font-size: 45px;
 }
 
 .lb_text {
