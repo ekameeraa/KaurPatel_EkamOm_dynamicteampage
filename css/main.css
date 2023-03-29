@@ -1,9 +1,16 @@
-#container {
-	margin: 0 auto;
-	width: 1200px;
+.hidden {
+	display: none;
 }
 
-/* this is our grid based off of our XD file */
+#container {
+	margin: 0 auto;
+	width: 1920px;
+}
+
+body {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .grid-con {
 	display: grid;
 	grid-template-columns: repeat(12, 70px);
@@ -12,8 +19,71 @@
 	padding-right: 140px;
 	font-size: 34px;
 	background-color: #fff;
-	color: #000;
+	color: purple;
 }
+
+header{
+    position: fixed;
+    max-width: 100%;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 6%;
+}
+
+.OmPatel{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+#menu-con{
+    font-size: 1.8rem;
+    font-weight: 700;
+    box-sizing: border-box;
+    box-shadow: inset black;
+    color: grey;
+    text-decoration: none;
+}
+
+.Switch-Profile{
+	color: #000;
+    box-sizing: content-box;
+}
+
+.Switch-Profile{
+    background-color: blue;
+    color: bisque;
+    font-size: 25px;
+    display: flex;
+	margin-top: 15px;
+    border-radius: 3px;
+}
+
+#Switch-Profile {
+    border-radius: 3px;
+	background-color: gold;
+	height: 70px;
+	width: 180px;
+	cursor: pointer;
+	color: black;
+    margin-right: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Switch-Profile:hover{
+    background-color: blueviolet;
+}
+
 
 header {
     background-color: rgb(5, 77, 3);
@@ -21,7 +91,7 @@ header {
     padding: 20px;
   }
   
-  h1 {
+h1 {
     margin: 0;
     text-align: center;
   }
@@ -41,18 +111,44 @@ header {
 
 .change-profile{
     box-sizing: content-box;
+    margin-bottom: 80px;
 }
 
 #hero-image {
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 400px;
+    height: 550px;
+}
+
+#hero-image1 {
+    margin-top: 200px;
+    margin-left: 350px;
     margin-bottom: 50px;
     margin-left: 550px;
-    width: 350px;
-    height: 400px;
+    width: 690px;
+    height: 700px;
     margin-top: 150px; 
 }
 
 a {
 	text-decoration: none;
+}
+
+.butt{
+	background-color: lightskyblue;
+	height: 70px;
+	width: 230px;
+	cursor: pointer;
+	color: darkred;
+    align-items: center;
+    margin-bottom: 300px;
+    margin-left: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.butt:hover{
     color:#fff;
 }
 
@@ -62,17 +158,33 @@ a {
 	height: 75px;
 	width: 250px;
 	cursor: pointer;
-	color: rgb(5, 77, 3);
+	color: indianred;
     margin-top: -295px;
     font-size: 18px;
     text-decoration: none;
     border-radius: 25px;
-    
 }
 
 .button_1:hover{
 	background-color: rgb(229, 229, 229);
 	color:black;
+}
+
+.butt-1{
+	border: 1px;
+	background-color: black;
+	height: 60px;
+	width: 550px;
+	cursor: pointer;
+	color: white;
+    align-items: center;
+    margin-top: -275px;
+    font-size: 25px;
+}
+
+.butt-1:hover{
+	background-color: lightcoral;
+	color: red;
 }
 
 .button_1 a{
@@ -82,29 +194,27 @@ a {
 .button_1 a:hover{
     color: rgb(5, 77, 3);
   }
-.hidden {
-	display: none;
-}
 
 #button {
-    margin-top: -10px;
+    margin-bottom: 100px;
     margin-left: 600px;
     background-color: black;
     color: white;
-    transition: o.3s ease black;
+    transition: 0.3s ease black;
     font-size: 23px;
-    border: none;
-    border-radius: none;
+    border: 2px;
+    border-radius: 1px;
     box-sizing: border-box;
     box-shadow: 0px 0 20px 20px white;  
 }
+
 #button:hover{
     color: black;
 }
 
 .change-profile{
     background-color: #fff;
-    color: rgb(5, 77, 3);   
+    color: rgb(5, 77, 3); 
 }
 
 #change-profile:hover {
@@ -113,21 +223,32 @@ a {
     color: #fff; 
 }
 
+.change-profile1{
+    background-color: #fff;
+    color: darkslategray; 
+}
+
+#change-profile1:hover {
+    border-radius: 5px;
+    background-color: yellow; 
+    color: red; 
+}
 
 a {
     text-decoration: none;
     transition: all .5s ease-in-out;
 }
 
-
-/* #hero {
-	
-} */
+#hero {
+	margin-top: 100px;
+}
 
 #hero-text {
-	height: 100px;
-    color: rgb(5, 77, 3);
-    padding-left: 520px;
+	grid-column: 7/12;
+	margin-top: 50px;
+	height: 600px;
+    color: Red;
+    text-align: center;
 }
 
 #hero-image {
@@ -212,64 +333,109 @@ a {
 .lb_text {
     line-height: 1.6 !important;
     margin-left: 0;
+    padding-top: 4em;
+    color: red;
+    font-size: 30px;
+}
+
+.lightbox1:target { display: block;  
     padding-top: 2em;
     color: white;
     padding-top: 150px;
 }
 
-
 .lightbox:target { display: block; }
 
+/*l*/
 
-/* l */
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/om_2.jpg');
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px center;
+    display: none;
+    z-index: 5000;
+}
 
 .lightbox1 {
     width: 100vw;
     height: 100vh;
-
     position: absolute;
     top: 0;
     left: 0;
-
     background-color: rgba(30, 30, 30, 30.85);
-    background-image: url('../images/logan2.JPG');
+    background-image: url('../images/ekam-1.jpg');
     background-repeat: no-repeat;
-
     background-size: 55vh;
     background-position: 40px center;
-
-    z-index: 5000;
-
     display: none;
+    z-index: 5000;
 }
 
-
-.lightbox_close1{
-    margin-left: 1300px;
-    font-size: 40px;
+.lightbox_close {
+    margin-left: 130px;
+    font-size: 70px;
     color: white;
-    margin-bottom: -200px;
+    margin-bottom: -500px;
 }
 
+.lightbox_close:hover { opacity: 0.5; color: rgb(238, 255, 0); }
 
-.lightbox_close1:hover { opacity: 0.5; color: brown; }
+.lightbox_close1 {
+    margin-left: 130px;
+    font-size: 70px;
+    color: white;
+    margin-bottom: -500px;
+}
 
-.lightbox1 article {
+.lightbox_close1:hover { opacity: 0.5; color: orange; }
+
+.lightbox article {
     width: 45%;
     margin-left: 40%;
 }
 
-.lb_text, .lb_heading { 
+.lb_heading {
     text-align: left;
     color: white;
+    padding-top: 130px;
+    font-size: 45px;
 }
 
 .lb_text {
     line-height: 1.6 !important;
     margin-left: 0;
-    padding-top: 2em;
-    color: white;
+    padding-top: 4em;
+    color: red;
+    font-size: 30px;
 }
 
+.lb_heading1 {
+    text-align: center;
+    color: wheat;
+    padding-top: 50px;
+    margin-left: 400px;
+    font-size: 50px;
+}
 
-.lightbox1:target { display: block; }
+.lb_text1 {
+    line-height: 1.6 !important;
+   margin-left: 1300px;
+    padding-top: 4em;
+    color: red;
+    font-size: 35px;
+}
+
+.lightbox1:target { display: block; 
+    padding-top: 2em;
+    color: blueviolet;
+    padding-top: 150px;
+}
+
+.lightbox:target { display: block; }
