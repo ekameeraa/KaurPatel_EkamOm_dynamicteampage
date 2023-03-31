@@ -1,7 +1,7 @@
 TODO: Creating a team page for both the partners in the team by adding each other's bio as well as some interesting facts in this project.
 
 Installation
-TODO: Describe the installation process
+TODO: Working to add new features by using javascript.
 
 Usage
 TODO: Write usage instructions
